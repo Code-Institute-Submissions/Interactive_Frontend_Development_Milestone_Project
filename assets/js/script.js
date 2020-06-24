@@ -1,1 +1,1 @@
-alert ("Hi, I'm Javascripst 😊");
+alert ("Hi, I'm Javascripst");
