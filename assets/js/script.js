@@ -1,5 +1,7 @@
 alert ("Hi, I'm Javascripst");
 
-var palyerName = window.prompt ("Please enter your name:");
+var namePlayer = prompt ("Please enter your name:")
 
-document.getElementById("subtitle").innerText = "Demo";
+function namePlayer() {
+  document.getElementById("subtitle").innerHTML ="Welcome " + namePlayer + "! How are you today?";
+}
