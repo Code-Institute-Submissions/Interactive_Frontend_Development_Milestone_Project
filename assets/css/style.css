@@ -5,6 +5,7 @@
     color: red;
     font-size: 50px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .subtitle {
@@ -12,4 +13,5 @@
     color: black;
     font-size: 25px;
     text-align: center;
+    margin: 0;
 }
