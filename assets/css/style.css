@@ -7,36 +7,9 @@
 }
 
 body {
-  position: ;
   height: 100vh;
   display: flex;
   background: white;
-}
-
-.container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-    position: ;
-}
-
-.maintitle {
-    font-family: 'Gloria Hallelujah', cursive;
-    color: red;
-    font-size: 50px;
-    position: ;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-#subtitle {
-    font-family: 'Gloria Hallelujah', cursive;
-    color: black;
-    font-size: 25px;
-    position: ;
-    text-align: center;
-    margin: 0;
 }
 
 img {
