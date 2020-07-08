@@ -1,3 +1,5 @@
+alert ("porco dio!")
+
 function flipCard() {
   this.classList.toggle('flip');
 }
