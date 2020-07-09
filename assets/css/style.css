@@ -6,14 +6,25 @@
 
 body {
   height: 100vh;
-  display: flex;
+  display: inline;
   background: white;
+}
+
+.title {
+    text-align: center;
+    margin: 3%;
+}
+
+.score-panel {
+    display: inline-flex;
+    text-align: center;
 }
 
 .memory-game {
   width: 400px;
   height: 400px;
   margin: auto;
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   perspective: 1000px;

@@ -8,6 +8,19 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
+
+    <header>
+            <h1 class="title">Memory Game</h1>
+    </header>
+       
+    <section class="score-panel">
+         <div class="moves">0&ensp;</div> Move(s)
+         <div class="timer"></div>
+         <div class="restart" onclick=startGame()>
+            <i class="fa fa-redo"></i>
+         </div>
+    </section>
+
     <section class="memory-game">
         <div class="memory-card" data-framework="lion">
         <img class="front-face" src="assets/img/lion.jpg" alt="Lion" />
