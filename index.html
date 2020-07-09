@@ -5,6 +5,7 @@
 
     <title>Memory Game</title>
 
+    <script src="https://kit.fontawesome.com/d6baceb912.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
@@ -14,10 +15,13 @@
     </header>
        
     <section class="score-panel">
-         <div class="moves">0&ensp;</div> Move(s)
-         <div class="timer"></div>
+         <div class="moves">0&ensp;</div>
+         Move(s)
+         <div class="timer">&ensp;0 mins 0 secs</div>
          <div class="restart" onclick=startGame()>
-            &ensp;&#x21bb;
+            <span style="font-size: 15px; color: red;">
+                &ensp;<i class="fas fa-redo-alt"></i>
+            </span>
          </div>
     </section>
 

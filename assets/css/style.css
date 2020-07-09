@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -7,24 +9,28 @@
 body {
   height: 100vh;
   display: inline;
-  background: white;
+  background: 	#D3D3D3;
 }
 
 .title {
     text-align: center;
-    margin: 3%;
+    padding-top: 2%;
+    font-family: "Balsamiq Sans", sans-serif;
+    color: black;
+    font-size: 30px;
 }
 
 .score-panel {
-    display: inline-flex;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Balsamiq Sans", sans-serif;
+    padding: 1%;
 }
 
 .memory-game {
   width: 400px;
   height: 400px;
   margin: auto;
-  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   perspective: 1000px;
@@ -39,7 +45,7 @@ body {
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform .5s;
-  box-shadow: 3px 3px 3px rgba(0,0,0,.3);
+  box-shadow: 3px 3px 3px rgba(0,0,0,.5);
   border: 1px solid;
 }
 
