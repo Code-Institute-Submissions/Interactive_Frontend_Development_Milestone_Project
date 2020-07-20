@@ -11,19 +11,6 @@ body {
   background:	white;
 }
 
-@media screen and (max-width: 600px) {
-  .quote {
-    color: #080808;
-    font-size: 30px;
-    font-family: 'Balsamiq Sans', sans-serif;
-    font-style: italic;
-    text-align: right;
-    position: absolute;
-    bottom: 300px;
-    right: 10px;
-  }
-}
-
 /*-----------------------------------------------Title */
 
 .title {
@@ -33,6 +20,12 @@ body {
     font-family: "Permanent Marker", sans-serif;
     color: black;
     font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 100px;
+  }
 }
 
 /*-----------------------------------------------Game */
