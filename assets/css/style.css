@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 * {
-  padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
@@ -12,13 +11,18 @@ body {
   background:	white;
 }
 
+/*-----------------------------------------------Title */
+
 .title {
     text-align: center;
     padding-top: 2%;
+    padding-bottom: 2%;
     font-family: "Permanent Marker", sans-serif;
     color: black;
     font-size: 30px;
 }
+
+/*-----------------------------------------------Game */
 
 .score-panel {
     display: flex;
@@ -71,4 +75,34 @@ body {
 
 .front-face {
   transform: rotateY(180deg);
+}
+
+/*-----------------------------------------------Footer */
+
+.footer {
+  text-align: center;
+}
+
+.social-links {
+    display: inline-flex;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+ul {
+    list-style-type: none;
 }
