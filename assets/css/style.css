@@ -81,13 +81,16 @@ body {
 
 .footer {
   text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .social-links {
+    padding: 10px;
     display: inline-flex;
 }
 
-/*.social-links li a i {
+.social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -97,7 +100,7 @@ body {
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
-}*/
+}
 
 .social-links li a i:hover {
     background: #e84610;
@@ -105,5 +108,4 @@ body {
 
 ul {
     list-style-type: none;
-    padding: 0;
 }
