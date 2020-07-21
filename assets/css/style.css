@@ -25,6 +25,7 @@ body {
 @media screen and (max-width: 600px) {
   .title {
     font-size: 100px;
+    text-align: center;
   }
 }
 
