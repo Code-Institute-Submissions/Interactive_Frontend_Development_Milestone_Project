@@ -24,19 +24,11 @@ body {
 
 @media screen and (max-width: 600px) {
   .title {
-    font-size: 100px;
-    text-align: center;
+    font-size: 137px;
   }
 }
 
 /*-----------------------------------------------Game */
-
-.score-panel {
-    display: flex;
-    justify-content: center;
-    font-family: "Permanent Marker", sans-serif;
-    padding: 1%;
-}
 
 .memory-game {
   width: 400px;
@@ -84,6 +76,19 @@ body {
   transform: rotateY(180deg);
 }
 
+@media screen and (max-width: 600px) {
+  .memory-game {
+    width: 937px;
+    height: 937px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .memory-card {
+    box-shadow: 3px 3px 3px rgba(0,0,0,1);
+  }
+}
+
 /*-----------------------------------------------Footer */
 
 .footer {
@@ -115,4 +120,13 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+@media screen and (max-width: 600px) {
+  .social-links li a i {
+    width: 150px;
+    height: 105px;
+    font-size: 70px;
+    padding: 50px 0;
+  }
 }
